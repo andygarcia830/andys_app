@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include andys_app *.css
+recursive-include andys_app *.csv
+recursive-include andys_app *.html
+recursive-include andys_app *.ico
+recursive-include andys_app *.js
+recursive-include andys_app *.json
+recursive-include andys_app *.md
+recursive-include andys_app *.png
+recursive-include andys_app *.py
+recursive-include andys_app *.svg
+recursive-include andys_app *.txt
+recursive-exclude andys_app *.pyc
